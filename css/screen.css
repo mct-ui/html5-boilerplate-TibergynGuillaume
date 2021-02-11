@@ -70,7 +70,9 @@ h3 {
 h4,
 h5,
 h6 {
-    
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 24px;
 }
 
 p,
@@ -80,30 +82,45 @@ dl,
 table,
 address,
 figure {
-
+    margin: 0 0 24px;
 }
 
 ul,
 ol,
 blockquote {
-
+    padding-left: 24px;
 }
 
 li ul,
 li ol{
-
+    margin-bottom: 0;
 }
 
 blockquote {
+    font-style: italic;
+    font-size: 23px;
+    line-height: 32px;
+    margin: 0 0 24px;
+    font-family: "Times New Roman", serif;
+}
 
+blockquote * {
+    font-size: inherit;
+    line-height: inherit;
 }
 
 figcaption {
-
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 8px;
+    color: Grey;
 }
 
 hr {
-
+    border: 0;
+    height: 1px;
+    background: lightgray;
+    margin: 0 0 24px;
 }
 
 a {
